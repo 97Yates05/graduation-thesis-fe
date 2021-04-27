@@ -31,7 +31,7 @@ export default defineConfig({
         },
         {
           name: 'admin', // 唯一 id
-          entry: '//localhost:8004', // html entry
+          entry: '//localhost:8005', // html entry
         },
       ],
     },

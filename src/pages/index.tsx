@@ -6,7 +6,7 @@ interface Props {
 }
 export default function IndexPage(props: Props) {
   return (
-    <div>
+    <div className={styles.content}>
       <div className={styles.header}>
         <Link to="/">首页</Link>
         <Link to="/admin">管理</Link>
